@@ -9,6 +9,9 @@ include device/xiaomi/sdm439-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/pine
 
+# Lights
+SOONG_CONFIG_XIAOMI_MSM8937_LIGHTS_WHITE_LED := true
+
 # Partitions
 BOARD_CACHEIMAGE_PARTITION_SIZE := 268435456
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3221225472
