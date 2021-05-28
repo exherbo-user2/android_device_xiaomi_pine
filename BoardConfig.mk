@@ -10,7 +10,7 @@ include device/xiaomi/sdm439-common/BoardConfigCommon.mk
 DEVICE_PATH := device/xiaomi/pine
 
 # Kernel
-TARGET_KERNEL_CONFIG := pine-perf_defconfig
+TARGET_KERNEL_CONFIG := cherry-pine_defconfig
 
 # Lights
 SOONG_CONFIG_XIAOMI_MSM8937_LIGHTS_WHITE_LED := true
