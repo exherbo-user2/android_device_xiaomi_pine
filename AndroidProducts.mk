@@ -19,3 +19,11 @@ COMMON_LUNCH_CHOICES += \
     cherish_pine-user \
     cherish_pine-userdebug \
     cherish_pine-eng
+
+PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/octavi_pine.mk
+
+COMMON_LUNCH_CHOICES += \
+    octavi_pine-user \
+    octavi_pine-userdebug \
+    octavi_pine-eng
